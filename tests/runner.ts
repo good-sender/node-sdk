@@ -157,7 +157,7 @@ if (ALLOW_DESTRUCTIVE) {
         emails: [{ email: RECIPIENT_EMAIL, name: RECIPIENT_NAME }],
       },
     });
-    return `status=${res.status} accounts=${res.data.accounts?.length ?? 0}`;
+    return `status=${res.status} emails=${res.data.emails?.length ?? 0}`;
   });
 } else {
   skip("sendEmail", "destructive — set ALLOW_DESTRUCTIVE=1");
