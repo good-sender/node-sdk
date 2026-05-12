@@ -1,0 +1,19 @@
+generatorName: typescript-axios
+outputDir: .
+inputSpec: ../openapi/goodsender.yaml
+gitUserId: good-sender
+gitRepoId: node-sdk
+packageVersion: 0.1.0
+additionalProperties:
+  httpUserAgent: goodsender-node/0.1.0
+  npmName: "@goodsender/sdk"
+  npmVersion: 0.1.0
+  npmRepository: https://github.com/good-sender/node-sdk
+  supportsES6: true
+  withInterfaces: true
+  withSeparateModelsAndApi: false
+  useSingleRequestParameter: true
+  licenseName: MIT
+  modelPropertyNaming: original
+  enumPropertyNaming: original
+  hideGenerationTimestamp: true
