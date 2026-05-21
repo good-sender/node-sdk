@@ -2,12 +2,6 @@
 
 Official client library for the GoodSender email API. Package: `@goodsender/sdk`
 
-## Installation
-
-```bash
-npm install @goodsender/sdk
-```
-
 ## Quick start
 
 ```typescript
@@ -71,7 +65,7 @@ console.log(`emails=${list.data.emails?.length ?? 0}`);
 
 ## Documentation
 
-- API reference: <https://api.goodsender.com/docs>
+- API reference: <https://goodsender.com/docs>
 - OpenAPI spec: `openapi/goodsender.yaml` in this repo
 - Conformance tests: `tests/`
 
